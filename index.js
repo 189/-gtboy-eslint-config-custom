@@ -5,6 +5,7 @@ module.exports = {
     "@btboy/eslint-config/libs/google.linter.js",
   ],
   rules: {
+    quotes: "off",
     "array-element-newline": "off",
     camelcase: "off",
     "class-methods-use-this": "off",
