@@ -3,13 +3,13 @@
 ### Install
 
 ```
-$ yarn add @gtboy/eslint-config
+$ yarn add @btboy/eslint-config
 ```
 
 ### Usage
 
 ```
 {
-    "extends": "@gtboy/eslint-config"
+    "extends": "@btboy/eslint-config"
 }
 ```
