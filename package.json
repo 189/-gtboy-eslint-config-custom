@@ -13,8 +13,7 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=4",
     "@typescript-eslint/parser": ">=4",
-    "eslint": ">= 7",
-    "eslint-config-google": "latest"
+    "eslint": ">= 6"
   },
   "keywords": [
     "eslint",
