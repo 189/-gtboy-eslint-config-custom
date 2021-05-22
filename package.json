@@ -1,7 +1,7 @@
 {
   "name": "@btboy/eslint-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "ESLint shareable config for the js/ts style base in google style",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "eslint": ">= 7",
     "@typescript-eslint/eslint-plugin": ">=4",
     "@typescript-eslint/parser": ">=4",
-    "eslint-config-google": "@latest"
+    "eslint-config-google": "latest"
   },
   "keywords": [
     "eslint",

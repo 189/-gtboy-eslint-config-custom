@@ -23,7 +23,7 @@ module.exports = {
     "implicit-arrow-linebreak": "off",
     "linebreak-style": "off",
     "max-len": "off",
-    "max-lines": [{ max: 1000, skipComments: true, skipBlankLines: true }],
+    "max-lines": [{ max: 10, skipComments: true, skipBlankLines: true }],
     "max-lines-per-function": "off",
     "max-params": "off",
     "max-statements": "off",
