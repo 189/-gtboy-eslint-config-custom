@@ -1,6 +1,6 @@
 {
   "name": "@btboy/eslint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "ESLint shareable config for the js/ts style base in google style",
   "main": "index.js",
   "scripts": {
