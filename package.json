@@ -11,9 +11,9 @@
     "url": "git+https://github.com/189/eslint-config-custom.git"
   },
   "peerDependencies": {
-    "eslint": ">= 7",
     "@typescript-eslint/eslint-plugin": ">=4",
     "@typescript-eslint/parser": ">=4",
+    "eslint": ">= 7",
     "eslint-config-google": "latest"
   },
   "keywords": [
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/189/eslint-config-custom/issues"
   },
-  "homepage": "https://github.com/189/eslint-config-custom#readme"
+  "homepage": "https://github.com/189/eslint-config-custom#readme",
+  "dependencies": {
+    "eslint": "^7.27.0"
+  }
 }

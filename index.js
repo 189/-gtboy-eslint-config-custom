@@ -4,7 +4,11 @@ module.exports = {
     node: true,
     es2021: true,
   },
-  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "@btboy/eslnt-config/libs/google.linter.js",
+  ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 12,
@@ -23,7 +27,10 @@ module.exports = {
     "implicit-arrow-linebreak": "off",
     "linebreak-style": "off",
     "max-len": "off",
-    "max-lines": [{ max: 10, skipComments: true, skipBlankLines: true }],
+    "max-lines": [
+      "error",
+      { max: 10, skipComments: true, skipBlankLines: true },
+    ],
     "max-lines-per-function": "off",
     "max-params": "off",
     "max-statements": "off",
