@@ -1,20 +1,9 @@
 module.exports = {
-  env: {
-    browser: true,
-    node: true,
-    es2021: true,
-  },
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "@btboy/eslint-config/libs/google.linter.js",
   ],
-  parser: "@typescript-eslint/parser",
-  parserOptions: {
-    ecmaVersion: 12,
-    sourceType: "module",
-  },
-  plugins: ["@typescript-eslint"],
   rules: {
     "array-element-newline": "off",
     camelcase: "off",
@@ -29,7 +18,7 @@ module.exports = {
     "max-len": "off",
     "max-lines": [
       "error",
-      { max: 10, skipComments: true, skipBlankLines: true },
+      { max: 800, skipComments: true, skipBlankLines: true },
     ],
     "max-lines-per-function": "off",
     "max-params": "off",
